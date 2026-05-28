@@ -9,7 +9,6 @@ function Palindrome(str:string)
     }
     else {
                 console.log(`${str} is not  Palindrome `)
-
     }
 
 }
