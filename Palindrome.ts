@@ -8,7 +8,7 @@ function Palindrome(str:string)
         console.log(`${str} is Palindrome `)
     }
     else {
-                console.log(`${str} not  Palindrome `)
+                console.log(`${str} not  Palindrome string `)
 
     }
 
