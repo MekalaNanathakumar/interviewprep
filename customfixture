@@ -1,0 +1,20 @@
+
+
+type myFixture= {
+
+}
+
+const test= base.extend<myFixture>({
+
+	loginpage: async ({page}, use) => {
+		const loginpagecf = new LoginPage(page);
+		await page.goto('https://www.saucedemo.com/');
+		await use(loginpagecf);
+	}
+
+
+})
+
+// how to used 
+// loginpagecf.sort()
+
